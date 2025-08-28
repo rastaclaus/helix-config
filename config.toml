@@ -1,4 +1,4 @@
-theme = "gruvbox_light_soft"
+theme = "light"
 
 [editor]
 line-number = "relative"
@@ -12,3 +12,6 @@ select = "underline"
 
 [editor.file-picker]
 hidden = true
+
+[keys.normal]
+space.B = ":echo %sh{git blame -L %{cursor_line},+1 %{buffer_name}}" # Print the current line's git blame information to the statusline.
