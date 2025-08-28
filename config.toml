@@ -1,8 +1,9 @@
-theme = "gruvbox_dark_hard"
+theme = "gruvbox_light_soft"
 
 [editor]
 line-number = "relative"
 mouse = false
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
