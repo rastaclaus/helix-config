@@ -4,6 +4,7 @@ theme = "light"
 line-number = "relative"
 mouse = false
 true-color = true
+shell = ["fish", "-c"]
 
 [editor.cursor-shape]
 insert = "bar"
