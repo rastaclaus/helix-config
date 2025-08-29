@@ -84,9 +84,6 @@ docstring-code-line-length = "dynamic"
 [language-server.ruff.config.settings.lint.per-file-ignores]
 "**/tests/**.py" = ["D", "S", "ANN201", "PLR2004", "SLF"]
 
-[language-server.ruff.config.settings.lint.per-file-ignores]
-"**/tests/**.py" = ["D", "S", "ANN201", "PLR2004", "SLF"]
-
 [[language]]
 name = "python"
 roots = ["pyproject.toml", ".git", "setup.py"]
