@@ -1,3 +1,6 @@
+[language-server.rust-analyzer.config]
+check.command = "clippy"
+
 [language-server.basedpyright]
 command = "basedpyright-langserver"
 args = ["--stdio"]
@@ -12,3 +15,7 @@ basedpyright.analysis.typeCheckingMode = "off"
 name = "python"
 roots = ["pyproject.toml", ".git", "setup.py"]
 language-servers = [ "basedpyright", "ruff", "ty"]
+
+[[language]]
+name = "rust"
+language-servers = ["rust-analyzer"]
