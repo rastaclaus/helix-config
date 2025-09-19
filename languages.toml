@@ -14,7 +14,7 @@ basedpyright.analysis.typeCheckingMode = "off"
 [[language]]
 name = "python"
 roots = ["pyproject.toml", ".git", "setup.py"]
-language-servers = [ "basedpyright", "ruff", "ty"]
+language-servers = [ "ruff", "ty"]
 
 [[language]]
 name = "rust"
