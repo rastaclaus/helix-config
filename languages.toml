@@ -11,10 +11,15 @@ basedpyright.analysis.useLibraryCodeForTypes = true
 basedpyright.analysis.diagnosticMode = 'openFilesOnly'
 basedpyright.analysis.typeCheckingMode = "off"
 
+[language-server.ty.config]
+ty.diagnosticMode = 'workspace'
+ty.experimental.rename = true
+ty.experimental.autoImport = true
+
 [[language]]
 name = "python"
 roots = ["pyproject.toml", ".git", "setup.py"]
-language-servers = [ "ruff", "ty", "basedpyright"]
+language-servers = [ "ruff", "ty"]
 
 [[language]]
 name = "rust"
